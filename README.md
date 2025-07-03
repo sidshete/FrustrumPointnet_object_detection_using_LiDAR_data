@@ -15,7 +15,7 @@ This repository implements **Frustum PointNet**, a 3D deep learning model for ob
 
 ---
 ### Project Structure
-
+```
 ├── checkpoints/
 ├── models/
 │   └── frustrum_pointnet.py    # Model definition
@@ -37,7 +37,7 @@ This repository implements **Frustum PointNet**, a 3D deep learning model for ob
 ├── visualize.py                # Visualization of predictions
 ├── requirements.txt            # Required Python packages
 └── README.md                   # This file
-
+```
 ### Dependencies
 Python 3.7+
 Pytorch
@@ -60,12 +60,12 @@ Calibration files (camera calibration and LiDAR-to-camera transformation)
 Dataset folder structure
 Organize your dataset files in the following directory layout:
 
-
+```
 data/
 ├── calib/      # Calibration files (.txt)
 ├── label/      # Label files (.txt) with ground truth 3D boxes
 └── lidar/      # Velodyne point cloud files (.bin)
-
+```
 Make sure the files in each folder are named consistently so they correspond across folders (e.g., 000001.bin in lidar corresponds to 000001.txt in label and calib).
 
 ## Installation
