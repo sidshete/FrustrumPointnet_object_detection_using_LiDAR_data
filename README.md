@@ -109,9 +109,11 @@ python visualize.py
 
 
 #### Citation
+```
 @inproceedings{qi2018frustum,
   title={Frustum PointNets for 3D Object Detection from RGB-D Data},
   author={Qi, Charles R and Liu, Wei and Wu, Chenxia and Su, Hao and Guibas, Leonidas J},
   booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition},
   year={2018}
 }
+```
